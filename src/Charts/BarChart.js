@@ -10,8 +10,8 @@ const financeData = [
   },
   {
     month: "Feb",
-    income: 200,
-    expense: 70,
+    income: 500,
+    expense: 300,
   },
   {
     month: "Mar",
@@ -26,12 +26,12 @@ const data = {
     {
       label: "Income",
       data: financeData.map((d) => d.income),
-      backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+      backgroundColor: ["rgba(75, 192, 192, 0.5)"],
     },
     {
       label: "Expense",
       data: financeData.map((d) => d.expense),
-      backgroundColor: ["rgba(54, 162, 235, 0.2)"],
+      backgroundColor: ["rgba(255, 99, 132, 0.5)"],
     },
   ],
 };
