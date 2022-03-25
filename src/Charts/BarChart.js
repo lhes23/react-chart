@@ -27,11 +27,15 @@ const data = {
       label: "Income",
       data: financeData.map((d) => d.income),
       backgroundColor: ["rgba(75, 192, 192, 0.5)"],
+      borderColor: ["green"],
+      borderWidth: 1,
     },
     {
       label: "Expense",
       data: financeData.map((d) => d.expense),
       backgroundColor: ["rgba(255, 99, 132, 0.5)"],
+      borderColor: ["red"],
+      borderWidth: 1,
     },
   ],
 };
