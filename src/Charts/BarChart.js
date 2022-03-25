@@ -5,18 +5,18 @@ import { Chart as ChartJS } from "chart.js/auto";
 const financeData = [
   {
     month: "Jan",
-    income: 100,
-    expense: 80,
+    income: 72654.56,
+    expense: 72724.22,
   },
   {
     month: "Feb",
-    income: 500,
-    expense: 300,
+    income: 82427.0,
+    expense: 108479.33,
   },
   {
     month: "Mar",
-    income: 200,
-    expense: 90,
+    income: 87749.0,
+    expense: 110531.68,
   },
 ];
 

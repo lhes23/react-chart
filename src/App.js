@@ -4,8 +4,7 @@ import BarChart from "./Charts/BarChart";
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <h2>This is a React App for Chart!</h2>
+      <h1>Finance Budget for the Year 2022</h1>
       <BarChart />
     </div>
   );
